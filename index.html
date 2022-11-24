@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script defer src="js/login.js"></script>
+    <title>JS Login</title>
+  </head>
+  <body class="login">
+    <div class="container">
+      <h2 class="text-center">Login</h2>
+      <p>This is used for learning purposes only. Dont use a real password.</p>
+
+      <br />
+      <form action="./dashboard.html" class="login-form">
+        <div class="inout-group">
+          <label for="username" class="label">Username</label>
+          <input type="text" id="username" class="input" />
+          <span class="error-message"></span>
+        </div>
+        <br />
+        <div class="inout-group">
+          <label for="password" class="label">Password</label>
+          <input type="password" id="password" class="input" />
+          <span class="error-message"></span>
+        </div>
+        <br />
+        <button class="button" type="submit">Login</button>
+      </form>
+    </div>
+  </body>
+</html>
